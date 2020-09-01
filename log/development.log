@@ -1,0 +1,145 @@
+Started GET "/" for 127.0.0.1 at 2020-08-26 14:19:41 -0700
+  [1m[35m (11.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/railties-6.0.3.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/railties-6.0.3.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 40.5ms | Allocations: 372)
+Completed 200 OK in 113ms (Views: 74.5ms | ActiveRecord: 0.0ms | Allocations: 4588)
+
+
+Started GET "/say/hello" for 127.0.0.1 at 2020-08-26 14:19:56 -0700
+Processing by SayController#hello as HTML
+  Rendering say/hello.html.erb within layouts/application
+  Rendered say/hello.html.erb within layouts/application (Duration: 0.9ms | Allocations: 104)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in C:/Users/Student/RubymineProjects/HelloWebApp/public/packs
+[Webpacker] Hash: 15d1bb7b54cf6326b9ba
+Version: webpack 4.44.1
+Time: 2643ms
+Built at: 08/26/2020 2:20:02 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-9afcbb5693aa87623e69.js    124 KiB  application  [emitted] [immutable]  application
+js/application-9afcbb5693aa87623e69.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-9afcbb5693aa87623e69.js js/application-9afcbb5693aa87623e69.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+Completed 200 OK in 6092ms (Views: 6086.0ms | ActiveRecord: 0.0ms | Allocations: 22988)
+
+
+Started GET "/" for 127.0.0.1 at 2020-08-26 14:21:59 -0700
+  [1m[35m (3.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/railties-6.0.3.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/railties-6.0.3.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 6.8ms | Allocations: 372)
+Completed 200 OK in 30ms (Views: 16.5ms | ActiveRecord: 0.0ms | Allocations: 2195)
+
+
+Started GET "/say/hello" for 127.0.0.1 at 2020-08-26 14:22:07 -0700
+Processing by SayController#hello as HTML
+  Rendering say/hello.html.erb within layouts/application
+  Rendered say/hello.html.erb within layouts/application (Duration: 1.1ms | Allocations: 104)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 107ms (Views: 102.8ms | ActiveRecord: 0.0ms | Allocations: 7650)
+
+
+Started GET "/say/hello" for 127.0.0.1 at 2020-08-26 14:22:27 -0700
+Processing by SayController#hello as HTML
+  Rendering say/hello.html.erb within layouts/application
+  Rendered say/hello.html.erb within layouts/application (Duration: 1.0ms | Allocations: 105)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 70ms (Views: 67.2ms | ActiveRecord: 0.0ms | Allocations: 5286)
+
+
+Started GET "/" for 127.0.0.1 at 2020-08-26 14:31:56 -0700
+  [1m[35m (10.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/railties-6.0.3.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/railties-6.0.3.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 24.2ms | Allocations: 372)
+Completed 200 OK in 111ms (Views: 59.0ms | ActiveRecord: 0.0ms | Allocations: 2195)
+
+
+Started GET "/say/hello" for 127.0.0.1 at 2020-08-26 14:32:19 -0700
+Processing by SayController#hello as HTML
+  Rendering say/hello.html.erb within layouts/application
+  Rendered say/hello.html.erb within layouts/application (Duration: 1.4ms | Allocations: 104)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 253ms (Views: 248.1ms | ActiveRecord: 0.0ms | Allocations: 7650)
+
+
+Started GET "/" for 127.0.0.1 at 2020-08-26 17:40:50 -0700
+  [1m[35m (45.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/railties-6.0.3.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/railties-6.0.3.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 221.1ms | Allocations: 372)
+Completed 200 OK in 641ms (Views: 454.5ms | ActiveRecord: 0.0ms | Allocations: 2199)
+
+
+Started GET "/say/hello" for 127.0.0.1 at 2020-08-26 17:43:07 -0700
+Processing by SayController#hello as HTML
+  Rendering say/hello.html.erb within layouts/application
+  Rendered say/hello.html.erb within layouts/application (Duration: 42.7ms | Allocations: 104)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2236ms (Views: 2188.7ms | ActiveRecord: 0.0ms | Allocations: 7657)
+
+
+Started GET "/say/hello" for 127.0.0.1 at 2020-08-26 17:47:47 -0700
+Processing by SayController#hello as HTML
+  Rendering say/hello.html.erb within layouts/application
+  Rendered say/hello.html.erb within layouts/application (Duration: 6.7ms | Allocations: 10)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 108ms (Views: 102.1ms | ActiveRecord: 0.0ms | Allocations: 4287)
+
+
+Started GET "/" for 127.0.0.1 at 2020-08-26 17:55:02 -0700
+  [1m[35m (142.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/railties-6.0.3.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/railties-6.0.3.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 333.9ms | Allocations: 372)
+Completed 200 OK in 1284ms (Views: 1020.3ms | ActiveRecord: 0.0ms | Allocations: 2202)
+
+
+Started GET "/" for 127.0.0.1 at 2020-08-27 11:00:30 -0700
+  [1m[35m (11.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/railties-6.0.3.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/railties-6.0.3.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 39.9ms | Allocations: 372)
+Completed 200 OK in 105ms (Views: 72.2ms | ActiveRecord: 0.0ms | Allocations: 2093)
+
+
+Started GET "/say/hello" for 127.0.0.1 at 2020-08-27 11:01:00 -0700
+Processing by SayController#hello as HTML
+  Rendering say/hello.html.erb within layouts/application
+  Rendered say/hello.html.erb within layouts/application (Duration: 8.2ms | Allocations: 104)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 278ms (Views: 274.7ms | ActiveRecord: 0.0ms | Allocations: 7572)
+
+
+Started GET "/say/hello" for 127.0.0.1 at 2020-08-27 11:25:31 -0700
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by SayController#hello as HTML
+  Rendering say/hello.html.erb within layouts/application
+  Rendered say/hello.html.erb within layouts/application (Duration: 0.1ms | Allocations: 10)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 41ms (Views: 40.5ms | ActiveRecord: 0.0ms | Allocations: 4274)
+
+
+Started GET "/" for 127.0.0.1 at 2020-08-27 14:28:01 -0700
+  [1m[35m (3.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/railties-6.0.3.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/railties-6.0.3.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 14.3ms | Allocations: 372)
+Completed 200 OK in 59ms (Views: 43.1ms | ActiveRecord: 0.0ms | Allocations: 2193)
+
+
+Started GET "/say/hello" for 127.0.0.1 at 2020-08-27 14:28:14 -0700
+Processing by SayController#hello as HTML
+  Rendering say/hello.html.erb within layouts/application
+  Rendered say/hello.html.erb within layouts/application (Duration: 1.0ms | Allocations: 104)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 93ms (Views: 88.8ms | ActiveRecord: 0.0ms | Allocations: 7646)
+
+
